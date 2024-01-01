@@ -7,4 +7,5 @@
  :builds
  {:worker {:target :esm
            :output-dir "dist"
-           :modules {:_worker {:exports {default worker/worker}}}}}}
+           :modules {:_worker {:exports {default worker/worker}}}
+           :compiler-options {:pretty-print true :pseudo-names false}}}}
