@@ -1,4 +1,4 @@
-# clojurescript-cloudflare-pages
+# Run ClojureScript on Cloudflare Pages
 
 This is a template for building [Cloudflare Pages](https://pages.cloudflare.com/) applications using [ClojureScript](https://clojurescript.org/).
 
