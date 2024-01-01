@@ -2,6 +2,8 @@
 
 This is a template for building [Cloudflare Pages](https://pages.cloudflare.com/) applications using [ClojureScript](https://clojurescript.org/).
 
+Live demo: https://clojurescript-cloudflare-pages.pages.dev
+
 Follow these steps to deploy your own copy:
 
 1. Fork this repository to your GitHub account.
@@ -22,6 +24,7 @@ Notes:
 - This template generates a [`_workers.js`](https://developers.cloudflare.com/pages/functions/advanced-mode/) file for the CloudFlare pages application
 - This template uses ClojureScript on the server, not in the browser
 - Automated deployments are not supported as Cloudflare's build envirnoment can't compile ClojureScript
+- Install the [Calva VS Code Extension](https://calva.io/) for ClojureSript syntax highlighting, code formatting, and more..
 
 Please open an issue to report bugs and submit a PR to contribute improvements!
 
