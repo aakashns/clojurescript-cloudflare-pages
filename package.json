@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "npx shadow-cljs release worker",
+        "start": "npx wrangler pages dev dist",
+        "deploy": "npx wrangler pages deploy dist"
+    }
+}

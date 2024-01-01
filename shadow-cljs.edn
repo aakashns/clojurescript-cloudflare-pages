@@ -1,0 +1,12 @@
+{:source-paths
+ ["src/main"]
+
+ :dependencies
+ []
+
+ :builds
+ {:worker {
+    :target :esm 
+    :output-dir "dist"
+    :modules {:_worker {:exports {default worker/worker}}}
+}}}
