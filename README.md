@@ -21,8 +21,10 @@ Follow these steps to deploy your own copy:
 Notes:
 
 - For local development, make sure you have Node.js, Java, and JDK installed
+- `npm start` automatically recompiles the code when a file is changed in `src`
 - This template generates a [`_workers.js`](https://developers.cloudflare.com/pages/functions/advanced-mode/) file for the CloudFlare pages application
 - This template uses ClojureScript on the server, not in the browser
+
 - Automated deployments are not supported as Cloudflare's build envirnoment can't compile ClojureScript
 - Install the [Calva VS Code Extension](https://calva.io/) for ClojureSript syntax highlighting, code formatting, and more..
 

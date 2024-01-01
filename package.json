@@ -3,7 +3,7 @@
         "compile": "npx nodemon --watch src --ext cljs --exec \"npx shadow-cljs compile devserver\"",
         "serve": "npx wrangler pages dev devserver --live-reload",
         "start": "npx npm-run-all -p compile serve",
-        "build": "npx shadow-cljs release worker",
+        "build": "rm -rf dist && npx shadow-cljs release worker",
         "deploy": "npx wrangler pages deploy dist"
     }
 }
