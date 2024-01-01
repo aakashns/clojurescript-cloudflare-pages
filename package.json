@@ -1,8 +1,9 @@
 {
     "scripts": {
-        "compile": "npx nodemon --watch src --ext cljs --exec \"npx shadow-cljs compile devserver\"",
-        "serve": "npx wrangler pages dev devserver --live-reload",
-        "start": "npx npm-run-all -p compile serve",
+        "startshadow": "npx shadow-cljs start",
+        "compile": "npx chokidar-cli \"**/*.cljs\" -c \"npx shadow-cljs compile devserver\"",
+        "serve": "npx wrangler pages dev devserver --port 8080 --live-reload",
+        "start": "npx npm-run-all -p startshadow compile serve",
         "build": "rm -rf dist && npx shadow-cljs release worker",
         "deploy": "npx wrangler pages deploy dist"
     }
