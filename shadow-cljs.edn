@@ -8,4 +8,8 @@
  {:worker {:target :esm
            :output-dir "dist"
            :modules {:_worker {:exports {default worker/worker}}}
-           :compiler-options {:pretty-print true :pseudo-names false}}}}
+           :compiler-options {:pretty-print true :pseudo-names false}}
+  :devserver {:target :esm
+              :output-dir "devserver"
+              :modules {:_worker {:exports {default worker/worker}}}
+              :compiler-options {:pretty-print true :pseudo-names false}}}}

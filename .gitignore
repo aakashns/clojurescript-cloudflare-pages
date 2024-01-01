@@ -18,3 +18,4 @@ dist/
 .lsp/
 node_modules/
 .wrangler
+devserver/
