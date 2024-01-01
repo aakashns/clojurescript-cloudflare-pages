@@ -1,6 +1,6 @@
 # clojurescript-cloudflare-pages
 
-A template for deploying a web application built using ClojureScript to Cloudflare Pages.
+This is a template for building Cloudflare Pages applications using ClojureScript.
 
 Follow these steps to deploy your own copy:
 
