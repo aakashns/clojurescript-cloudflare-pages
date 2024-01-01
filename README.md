@@ -2,8 +2,6 @@
 
 A template for deploying a web application built using ClojureScript to Cloudflare Pages.
 
-## Getting Started
-
 Follow these steps to deploy your own copy:
 
 1. Fork this repository to your GitHub account.
@@ -20,9 +18,10 @@ Follow these steps to deploy your own copy:
 
 Notes:
 
-- If you're developing the application locally (instead of on GitHub Codespaces), make sure you have Node.js, Java, and JDK installed
+- For local development, make sure you have Node.js, Java, and JDK installed
 - This template generates a [`_workers.js`](https://developers.cloudflare.com/pages/functions/advanced-mode/) file for the CloudFlare pages application
 - This template uses ClojureScript on the server, not in the browser
+- Automated deployments are not supported as Cloudflare's build envirnoment can't compile ClojureScript
 
 Please open an issue to report bugs and submit a PR to contribute improvements!
 
